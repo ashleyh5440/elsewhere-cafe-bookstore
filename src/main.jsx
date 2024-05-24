@@ -7,17 +7,18 @@ import { Container } from 'react-bootstrap';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 
 import 'bootstrap/dist/css/bootstrap.css';
-// import './styles/index.css';
+import './reset.css';
 import './App.css'
 
 //pages: home, about, menu, shopping (books+merch)
 
 import Home from './pages/Home';
 import About from './pages/About';
+import Shopping from './pages/Shopping';
 import Menu from './pages/Menu';
+
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
-// import Shopping from './pages/Shopping';
 
 const routes = [
   {
@@ -30,6 +31,12 @@ const routes = [
     path: '/about',
     name: 'About',
     element: <About />,
+    nodeRef: createRef()
+  },
+  {
+    path: '/shopping',
+    name: 'Shopping',
+    element: <Shopping />,
     nodeRef: createRef()
   },
     {

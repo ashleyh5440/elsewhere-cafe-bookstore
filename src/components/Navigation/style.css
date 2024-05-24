@@ -1,0 +1,19 @@
+.mx-auto, .nav-center, .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    /* border: 10px solid red; */
+}
+  
+.nav-link{
+    margin-left: 10%;
+    color: white;
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
+  }
+  
+.active {
+    font-weight: bold;
+  }
+  
