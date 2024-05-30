@@ -20,8 +20,9 @@ html, body {
 
 #home-logo {
     width: 60%;
+    border: 2px solid red;
 }
 
 #home-logo img {
-    width: 100%;
+    width: 80%;
 }
