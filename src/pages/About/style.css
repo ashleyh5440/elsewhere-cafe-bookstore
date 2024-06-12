@@ -22,9 +22,18 @@ h1 {
     width: 100%;
 }
 
+.row {
+    height: 100vh;
+}
+
 #right-a {
     margin-top: 13%;
-    
+}
+
+#left-a {
+    padding-top: 5%;
+    background-image: url("../../../public/images/background.jpg");
+    background-repeat: no-repeat;
 }
 
 #description {

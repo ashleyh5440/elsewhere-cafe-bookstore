@@ -1,0 +1,15 @@
+.shopping-page .container {
+    border: 2px solid red;
+    width: 80%;
+}
+
+.shopping-page .row {
+    /* height: 80%; */
+    border: 2px solid green;
+}
+
+.shopping-page .col {
+    height: 50%;
+    border: 2px solid yellow;
+}
+

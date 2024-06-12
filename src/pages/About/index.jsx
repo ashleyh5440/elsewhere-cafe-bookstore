@@ -10,7 +10,7 @@ import './style.css';
 function About() {
     return (
         <Container className="about-page">
-            <Row style={{marginTop: "8%", padding: "3%", height: "100vh"}}>
+            <Row>
                 <Col id="left-a">
                     <img src={logo} />
                     <div>some kind of picture here</div>
@@ -21,22 +21,22 @@ function About() {
             </Row>
             <Row>
                 <Col id="owner-bio">
-                    <h3>Madam Moni</h3>
+                    <h3>Madam Moja</h3>
                     <p>Owner</p>
                     <br />
-                    <p> Child of the Chosen, Woman of Wisdom, Lady of the Limitless, Madam Moni is the owner and keeper of records of Elsewhere Emporium. No one is really sure how old she is or where she comes from, just as no one is really sure when or where the Emporium first opened.</p>
+                    <p> Child of the Chosen, Woman of Wisdom, Lady of the Limitless, Madam Moja is the owner and keeper of records of Elsewhere Emporium. No one is really sure how old she is or where she comes from, just as no one is really sure when or where the Emporium first opened.</p>
                 </Col>
                 <Col id="owner-img">
                     <img src={ownerPic} />
                     <br />
-                    <p>Above is an artistic rendering of Madam Moni. No photographs or video of the Madam exist, as all attempts to capture her exact visage have caused bounts of madness in those who tried.</p>
+                    <p>Above is an artistic rendering of Madam Moja. No photographs or video of the Madam exist, as all attempts to capture her exact visage have caused bounts of madness in those who tried.</p>
                 </Col>
             </Row>
-            <Row id="disclaimer">
+            <div id="disclaimer">
                 <p><strong>A word of caution:</strong><br />
                 <br />
                 We at Elsewhere Emporium are not liable for any deaths, injuries, demonic possessions, maimings, hauntings, or public humiliation resulting in use of any spells or magicking obtained from the shop. We do not guarantee the results will be as the user expected, as the forces that shape the universe are unpredictable and often have a puckish sense of humor; nor do we recommend any DIY spellwork as the outcomes can range from unpleasant to apocalyptic. All purchases final.</p>
-            </Row>
+            </div>
         </Container>
     );
 }
