@@ -66,7 +66,7 @@ function App() {
   return (
     <>
     <Navigation routes={routes} />
-    <Container className="application">
+    <main className="application">
       <SwitchTransition>
         <CSSTransition
           key={location.pathname}
@@ -81,7 +81,7 @@ function App() {
             )}
         </CSSTransition>
       </SwitchTransition>
-    </Container>
+    </main>
     <Footer />
     </>
   )

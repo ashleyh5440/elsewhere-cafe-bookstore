@@ -1,15 +1,45 @@
-.shopping-page .container {
-    border: 2px solid red;
-    width: 80%;
+h1 {
+    font-size: 50px;
+}
+.shopping-page {
+    width: 100%;
 }
 
 .shopping-page .row {
-    /* height: 80%; */
-    border: 2px solid green;
+    height: 30%;
 }
 
-.shopping-page .col {
-    height: 50%;
-    border: 2px solid yellow;
+.shopping-page .col, #container5 {
+    margin: 3%;
+    padding-top: 2%;
+    width: 44%;
+    text-align: center;
+    background-color: rgb(51, 12, 87);
 }
 
+.carousel {
+    margin-bottom: 3%;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.slide-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide-img {
+    width: 70%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+}
+
+/* .carousel-control-next, .carousel-control-prev {
+    border: 2px solid red;
+} */
