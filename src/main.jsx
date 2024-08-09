@@ -10,12 +10,17 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './reset.css';
 import './App.css'
 
-//pages: home, about, menu, shopping (books+merch)
+//pages: home, about, shopping
 
 import Home from './pages/Home';
 import About from './pages/About';
 import Shopping from './pages/Shopping';
-import Menu from './pages/Menu';
+
+import Books from './pages/Shopping/Books'; 
+// import Flora from './pages/Shopping/Flora';
+// import Ingredients from './pages/Shopping/Ingredients';
+// import Oils from './pages/Shopping/Oils';
+// import Stones from './pages/Shopping/Stones';
 
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
@@ -39,12 +44,37 @@ const routes = [
     element: <Shopping />,
     nodeRef: createRef()
   },
-    {
-      path: '/menu',
-      name: 'Menu',
-      element: <Menu />,
-      nodeRef: createRef()
-    },
+  {
+    path: '/shopping/books',
+    element: <Books />,
+    nodeRef: createRef()
+  },
+  // {
+  //   path: '/shopping/flora',
+  //   element: <Flora />,
+  //   nodeRef: createRef()
+  // },
+  // {
+  //   path: '/shopping/ingredients',
+  //   element: <Ingredients />,
+  //   nodeRef: createRef()
+  // },
+  // {
+  //   path: '/shopping/oils',
+  //   element: <Oils />,
+  //   nodeRef: createRef()
+  // },
+  // {
+  //   path: '/shopping/stones',
+  //   element: <Stones />,
+  //   nodeRef: createRef()
+  // },
+    // {
+    //   path: '/menu',
+    //   name: 'Menu',
+    //   element: <Menu />,
+    //   nodeRef: createRef()
+    // },
 ]
 
 const router = createBrowserRouter([
