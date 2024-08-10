@@ -3,18 +3,31 @@ h1 {
 }
 .shopping-page {
     width: 100%;
+    background-color: rgb(51, 12, 87);
 }
 
 .shopping-page .row {
     height: 30%;
 }
 
-.shopping-page .col, #container5 {
+.shopping-page .col {
     margin: 3%;
     padding-top: 2%;
     width: 44%;
     text-align: center;
-    background-color: rgb(51, 12, 87);
+    background-image: url('../../../public/images/border.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.col h1 {
+    margin-top: 13%;
+    color: white;
+}
+
+.col h4 {
+    margin-bottom: 15%;
+    color: white;
 }
 
 .carousel {
@@ -39,7 +52,3 @@ h1 {
     align-items: center;
     margin-top: 2%;
 }
-
-/* .carousel-control-next, .carousel-control-prev {
-    border: 2px solid red;
-} */

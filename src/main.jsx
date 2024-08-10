@@ -18,7 +18,7 @@ import Shopping from './pages/Shopping';
 
 import Books from './pages/Shopping/Books'; 
 // import Flora from './pages/Shopping/Flora';
-// import Ingredients from './pages/Shopping/Ingredients';
+import Ingredients from './pages/Shopping/Ingredients';
 // import Oils from './pages/Shopping/Oils';
 // import Stones from './pages/Shopping/Stones';
 
@@ -54,11 +54,11 @@ const routes = [
   //   element: <Flora />,
   //   nodeRef: createRef()
   // },
-  // {
-  //   path: '/shopping/ingredients',
-  //   element: <Ingredients />,
-  //   nodeRef: createRef()
-  // },
+  {
+    path: '/shopping/ingredients',
+    element: <Ingredients />,
+    nodeRef: createRef()
+  },
   // {
   //   path: '/shopping/oils',
   //   element: <Oils />,

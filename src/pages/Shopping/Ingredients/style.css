@@ -1,0 +1,6 @@
+.ingredients-page {
+    background-color: rgb(51, 12, 87);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

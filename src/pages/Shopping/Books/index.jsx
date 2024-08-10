@@ -1,5 +1,4 @@
 import Card from '../../../components/Card';
-import chestIcon from '/images/chest-icon.png'
 
 import './style.css';
 
