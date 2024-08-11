@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { createRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, useLocation, useOutlet } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -49,11 +48,6 @@ const routes = [
     element: <Books />,
     nodeRef: createRef()
   },
-  // {
-  //   path: '/shopping/flora',
-  //   element: <Flora />,
-  //   nodeRef: createRef()
-  // },
   {
     path: '/shopping/ingredients',
     element: <Ingredients />,

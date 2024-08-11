@@ -1,54 +1,90 @@
 h1 {
     font-size: 50px;
 }
+
+p, a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(193, 193, 193);
+}
+
 .shopping-page {
-    width: 100%;
-    background-color: rgb(51, 12, 87);
+    width: 100%; 
+    background-color: rgb(35, 0, 44);
+    background-image: radial-gradient(circle, rgb(93,0,118), rgb(51,0,64), rgb(35, 0, 44));
+}
+
+.shopping-page .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .shopping-page .row {
-    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
 }
 
-.shopping-page .col {
-    margin: 3%;
-    padding-top: 2%;
-    width: 44%;
+.shopping-page .box {
+    width: 350px !important;
+    height: 300px;
     text-align: center;
     background-image: url('../../../public/images/border.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.col h1 {
-    margin-top: 13%;
+.box:hover {
+    animation: tada;
+    animation-duration: 2s;
+}
+
+.box h1 {
+    margin-top: 70px;
     color: white;
 }
 
-.col h4 {
-    margin-bottom: 15%;
+#disclaimer {
     color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 3%;
+    line-height: 1.5;
 }
 
-.carousel {
-    margin-bottom: 3%;
+#disclaimer img {
+    width: 20%;
 }
 
-.carousel-indicators {
-    display: none;
+#disclaimer h4 {
+    font-family: "Sacramento", cursive;
+    font-size: 50px;
 }
 
-.slide-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#disclaimer button {
+    width: 140px;
+    background-color: rgb(237, 185, 14);
+    border: none;
+    font-family: "Sacramento", cursive;
+    font-size: 30px;
 }
 
-.slide-img {
-    width: 70%;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2%;
+#disclaimer button:hover, #disclaimer button:active, #disclaimer button:focus {
+    background-color: rgb(210, 163, 10);
+}
+
+@media (max-width: 768px) {
+    .shopping-page .container .row {
+        overflow: scroll;
+    }
+    
+    .box {
+        margin: 30px 0;
+    }
 }

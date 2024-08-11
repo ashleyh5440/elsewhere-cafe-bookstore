@@ -1,4 +1,5 @@
 import Card from '../../../components/Card';
+import Sparkles from 'react-sparkle';
 
 import './style.css';
 
@@ -34,6 +35,9 @@ function Books() {
     ]
     return (
         <section className="books-page">
+            <Sparkles 
+                fadeOutSpeed={5}
+                flicker={false} />
             <div className="card-container">
                 {books.map((book, index) => (
                     <Card key={index} title={book.title} image={book.image} />

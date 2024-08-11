@@ -15,13 +15,23 @@ html, body {
     justify-content: center;
     background-image: url("../../../public/images/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 #home-logo {
-    width: 60%;
+    width: 80%;
 }
 
 #home-logo img {
     width: 80%;
+}
+
+@media (max-width: 768px) {
+    #home-logo {
+        width: 80%;
+    }
+
+    #home-logo img {
+        width: 100%;
+    }
 }
