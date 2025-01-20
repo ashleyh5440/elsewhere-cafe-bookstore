@@ -18,7 +18,7 @@
 }
 
 .nav-link.active, .nav-link:hover {
-  color: rgb(93,0,118) !important;
+  color: #075a3a !important;
   font-weight: bold;
 }
 

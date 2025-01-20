@@ -13,7 +13,8 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("../../../public/images/background.jpg");
+    /* background-image: url("../../../public/images/background.png"); */
+    background-color: #013221;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }

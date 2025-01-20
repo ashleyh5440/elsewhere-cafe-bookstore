@@ -13,8 +13,9 @@ a:hover {
 
 .shopping-page {
     width: 100%; 
-    background-color: rgb(35, 0, 44);
-    background-image: radial-gradient(circle, rgb(93,0,118), rgb(51,0,64), rgb(35, 0, 44));
+    background-image: radial-gradient(circle, #034731);
+    /* background-color: rgb(35, 0, 44);
+    background-image: radial-gradient(circle, rgb(93,0,118), rgb(51,0,64), rgb(35, 0, 44)); */
 }
 
 .shopping-page .container {
